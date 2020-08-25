@@ -1,0 +1,154 @@
+.color_picker_switcher {
+	background-color: #2c3e50;
+	border-radius: 4px 0 0 4px;
+	color: #fff;
+	cursor: pointer;
+	height: 50px;
+	left: -50px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 50px
+}
+
+.color_picker_switcher i {
+	font-size: 24px;
+	line-height: 50px;
+	color: #fff
+}
+
+.color_picker_area {
+	background-color: #fff;
+	border-radius: 0 0 4px;
+	height: auto;
+	left: -250px;
+	padding: 30px 25px 30px 30px;
+	position: fixed;
+	top: 20%;
+	-webkit-transition-duration: 500ms;
+	transition-duration: 500ms;
+	width: 250px;
+	z-index: 9999
+}
+
+.color_picker_switcher {
+	border-radius: 0 4px 4px 0;
+	right: -50px;
+	left: auto
+}
+
+.color_picker_area.on {
+	left: 0;
+	box-shadow: 3px 2px 3px rgba(0, 0, 0, .15)
+}
+
+.color_picker_area h4 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 400
+}
+
+input[id*=cor] {
+	display: none
+}
+
+input[id*=cor]:checked+label:before {
+	content: '\e66c';
+	display: block;
+	position: absolute;
+	font-family: Pe-icon-7-stroke;
+	top: 0;
+	left: 4px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400
+}
+
+label[class*=cor] {
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin-right: 5px;
+	position: relative;
+	width: 30px;
+	-webkit-transition-duration: 500ms;
+	transition-duration: 500ms;
+	border-radius: 6px
+}
+
+label[class*=cor]:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.cor1 {
+	background-color: #0984e3;
+}
+
+.green .apland-btn,
+.green #scrollUp,
+.green .dropdown-item:hover,
+.green .dropdown-item:focus,
+.green .header_signup_in_btn a,
+.green .welcome_slider .owl-dot.active:after,
+.green .welcome_style_one,
+.green .welcome_style_two,
+.green .welcome_style_three,
+.green .welcome_style_four,
+.green .single_about_part:hover,
+.green .single_about_part .feature_icon,
+.green .single_about_part .feature_icon:before,
+.green .single_about_part .feature_icon:after,
+.green .single_about_part.active,
+.green .video_area:before,
+.green .price-plan-tag p,
+.green .testimonial_area .owl-dot.active,
+.green .newsletter-form-area .button,
+.green .single-accordion h5 a,
+.green .single_timeline_block .timeline_icon,
+.green .download_app_area,
+.green .footer_social_area a:hover,
+.green .tooltip-inner {
+	background-color: #0984e3;
+}
+
+.green .apland-load,
+.green .message_now_area input:focus,
+.green .message_now_area textarea:focus {
+	border-color: #0984e3
+}
+
+.green .section_heading h3 span,
+.green .apland-btn:hover,
+.green .apland-btn:focus,
+.green .navbar-expand-lg .navbar-nav .nav-link:hover,
+.green .navbar-expand-lg .navbar-nav .nav-link:focus,
+.green .navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
+.green .welcome_text_area h3.price,
+.green .welcome_slider .owl-dot.active,
+.green .single_benifits.active .icon_box,
+.green .single_benifits.active h3,
+.green .single_price_plan .price,
+.green .download_app_text>a,
+.green .footer_bottom p i,
+.green .footer_bottom a,
+.green .footer_menu a:hover,
+.green .single_footer_area a:hover {
+	color: #0984e3;
+}
+
+.green .arrow:before {
+	border-top-color: #0984e3!important
+}
+
+.green .apland-btn,
+.green .single-accordion h5 a,
+.green .single-accordion h5 a span {
+	color: #fff
+}
+
+.green .apland-btn:hover,
+.green .apland-btn:focus,
+.green .download_app_text>a {
+	background-color: #fff
+}
